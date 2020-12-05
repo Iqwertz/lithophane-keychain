@@ -8,8 +8,8 @@
 
 	header {
 		&.major {
-			margin: 0 auto (_size(element-margin) * 2.5) auto;
-			max-width: calc(100% - 28rem);
+			margin: 0 auto (_size(element-margin) * 1.5) auto;
+			max-width: calc(100% - 18rem);
 			text-align: center;
 
 			&.small {
@@ -20,10 +20,10 @@
 		@include breakpoint('<=large') {
 			&.major {
 				margin: 0 auto _size(element-margin) auto;
-				max-width: calc(100% - 25rem);
+				max-width: calc(100% - 15rem);
 			}
 		}
-
+ 
 		@include breakpoint('<=medium') {
 			&.major {
 				margin: 0 auto _size(element-margin) auto;
